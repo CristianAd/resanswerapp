@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mini App de Preguntas y Respuestas</title>
+  <style>
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+  
+    .question {
+      background-color: #f1f1f1;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+  
+    .answer {
+      background-color: #e1e1e1;
+      padding: 10px;
+      margin-left: 20px;
+      margin-bottom: 10px;
+    }
+  
+    .question-title {
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Preguntas y Respuestas</h1>
+    <div id="questions"></div>
+    <form id="question-form">
+      <h2>Haz una pregunta:</h2>
+      <input type="text" id="question-input" required />
+      <button type="submit">Enviar</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
